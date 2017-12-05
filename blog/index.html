@@ -19,7 +19,7 @@ title: "산출물"
     {% for post in paginator.posts  %}
     <div>
       <h1>
-        <a href="https://hsreol.github.io">{{ post.title }}</a>
+        <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
       </h1>
       {% include post-header.html %}
     </div>
