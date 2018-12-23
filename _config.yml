@@ -5,8 +5,8 @@ paginate: 6 #articles per page
 paginate_path: /blog/page:num #makes pagination working
 
 # header text
-title: Happy OpenSource!
-header: 오픈소스 9조 포트폴리오 블로그
+title: ICT하제헌
+header: 하제헌 포트폴리오 블로그
 
 # for welcome page
 # to replace image go to index.html
